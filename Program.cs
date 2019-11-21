@@ -41,7 +41,7 @@ namespace Clash_Royal_generator
 
             Console.WriteLine("Wilkommen zum Clash Royal Deck generator");
             Console.WriteLine("Derzeit gibt es "+karten.Length+" Karten in Clash Royal");
-            String benutzerEingabe = "RevolutionMelon";
+            String benutzerEingabe = "Ntesla";
           
             /*
             Console.Write("Bitte gib deinen Namen ein: ");
@@ -63,9 +63,9 @@ namespace Clash_Royal_generator
     
     
     
-    int startwert = 0;
+            int startwert = 0;
              
-                for(int i=0;i<benutzerEingabe.Length; i++)
+            for(int i=0;i<benutzerEingabe.Length; i++)
             {  
                 char zeichen = benutzerEingabe[i];
                 int zeichenInt = zeichen;
@@ -100,15 +100,7 @@ namespace Clash_Royal_generator
              }
             
             Console.ReadKey();
-
-
-
-
-
         }  
-
-
-
 
     }
 }
