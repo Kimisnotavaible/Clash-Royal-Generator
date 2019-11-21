@@ -4,17 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Clash_Royal_generator
 {
     class Program
     {
+        
+        public void generator()
+        {
+            CRKarte karte = new CRKarte();
+        }
         static void Main(string[] args)
         {
-            string[] karten =   {"Bomber","Bogenschützen","Ritter","Speerkobolde","Kobolde",
+            Program P = new Program();
+            P.generator(); 
+            
+
+            
+            
+            
+           string[] karten =   {"Bomber","Bogenschützen","Ritter","Speerkobolde","Kobolde",
                                 "Skelette","Lakaien","Barbaren","Lakaienhorde","Feuergeister",
                                 "Skelettfass","Elitebarbaren","Königsriese","Fledermäuse","Eisgeist",
-                                "Koboldgang","Rabauken","Königsrekruten",
-                                "Mini-P.E.K.K.A.","Musketierin","Riese","Walküre","Schweinereiter",
+                                "Koboldgang","Rabauken","Königsrekruten","Mini-P.E.K.K.A.","Musketierin","Riese","Walküre","Schweinereiter",
                                 "Magier","Rammbock","Megalakai","Drei Musketierinnen","Eisgolem",
                                 "Musketierinnen","Eisgolem","Elixiergolem",
                                 "Flugmaschine","Blasrohrkobold","Zappys","Königsschweinchen","Koboldkäfig",
@@ -31,9 +43,9 @@ namespace Clash_Royal_generator
                                 "Spiegel","Tornado","Klonzauber","Barbarenfass",
                                 "Friedhof","Kampfholz","Elixiergolem" +
                                 "Kanone","Tesla","Minenwerfer",
-                                  "Koboldhütte","Grabstein","Bombenturm","Barbarenhütte","Infernoturm",
-                                  "Ofen","Elixiersammler",
-                                 "X-Bogen"
+                                "Koboldhütte","Grabstein","Bombenturm","Barbarenhütte","Infernoturm",
+                                "Ofen","Elixiersammler",
+                                "X-Bogen"
 
 
 
@@ -41,7 +53,7 @@ namespace Clash_Royal_generator
 
             Console.WriteLine("Wilkommen zum Clash Royal Deck generator");
             Console.WriteLine("Derzeit gibt es "+karten.Length+" Karten in Clash Royal");
-            String benutzerEingabe = "Ntesla";
+            String benutzerEingabe = "OGP-Melon";
           
             /*
             Console.Write("Bitte gib deinen Namen ein: ");
